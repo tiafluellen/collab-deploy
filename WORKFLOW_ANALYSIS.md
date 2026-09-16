@@ -2,9 +2,10 @@ WORKFLOW_ANALYSIS.md
 
 # GitHub Actions Workflow Analysis
 
+
 ## 1. What event causes this workflow to run?
 
-This workflow runs when code is pushed to the `main` branch. It also runs when a pull request is made to the `main` branch.
+This workflow runs when code is pushed to the main branch. It also runs when a pull request is made to the main branch. This trigger allows the workflow to automatically check changes before they are deployed.
 
 ## 2. What are the four main steps in the workflow?
 
